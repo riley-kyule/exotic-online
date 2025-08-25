@@ -11,5 +11,8 @@
   "dependencies": {
     "@astrojs/mdx": "^4.3.4",
     "astro": "^5.13.3"
+  },
+  "devDependencies": {
+    "@astrojs/vercel": "^8.2.6"
   }
 }
