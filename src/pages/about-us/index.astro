@@ -1,4 +1,5 @@
 ---
+import html from '/src/content/raw/about-us.html?raw';
 ---
 <html lang="en">
 	<head>
@@ -7,9 +8,6 @@
 		<title>About Us — Exotic Online</title>
 	</head>
 	<body>
-		<main>
-			<h1>About Us</h1>
-			<p>About Exotic Online.</p>
-		</main>
+		<Fragment set:html={html} />
 	</body>
 </html>
